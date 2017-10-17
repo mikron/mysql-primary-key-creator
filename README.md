@@ -3,6 +3,13 @@
 ~~~
 mvn clean package
 ~~~
+## Configuration
+Configure db.properties file according to your environment
+~~~
+url=jdbc:mysql://localhost/integration?autoReconnect=true
+user=root
+password=o7DsCMP4XrFutcn8lFu9
+~~~
 ## Run
 ~~~
 java -jar ../mysql-pkey-creator-1.0-SNAPSHOT.jar help
