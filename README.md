@@ -4,7 +4,7 @@
 mvn clean package
 ~~~
 ## Configuration
-Configure db.properties file according to your environment
+Configure `db.properties` file according to your environment
 ~~~
 url=jdbc:mysql://localhost/integration?autoReconnect=true
 user=root
